@@ -1,0 +1,160 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body1 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    background: #0000008e; 
+    padding-right: 100px;
+    padding-left: 100px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition:rgba(141, 141, 141, 0.8);
+
+}
+
+.nav_links li a:hover {
+    color: rgba(141, 141, 141, 0.8);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(45, 45, 45);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-shadow: -5px -5px 15px #3c3c3c, 5px 5px 15px  #3c3c3c, inset 5px 5px 10px  #3c3c3c, inset -5px -5px 10px  #3c3c3c;
+}
+
+button:hover {
+    background-color:  rgb(45, 45, 45);
+    /* box-shadow: none; */
+    box-shadow: -5px -5px 15px  #3c3c3c, 5px 5px 15px  #3c3c3c, inset 5px 5px 10px #222, inset -5px -5px 10px  #222;
+    font-size: 14px;
+}
+
+
+/* About */
+
+.description {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.property-title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.malumot {
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Button */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* 
+
+.btn {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+  }
+
+  button {
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	background: #292929;
+	margin: 10px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+button:hover {
+	box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+	font-size: 17px;
+	transition: 500ms;
+}
+
+button:focus {
+	outline: none;
+}
+
+.red:hover {
+	color: #f3f3f3;
+	text-shadow: 0px 0px 10px #f07171;
+}
+
+.green:hover {
+		color: #93f071;
+	text-shadow: 0px 0px 10px #93f071;
+}
+
+.blue:hover {
+	color: rgb(255, 0, 0);
+	text-shadow: 0px 0px 10px #71b7f0;
+}
+
+.purple:hover {
+	color: #b971f0;
+	text-shadow: 0px 0px 10px #b971f0;
+}
+ */
